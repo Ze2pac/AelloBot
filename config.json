@@ -1,0 +1,98 @@
+{
+  "Client":{
+    "token": "",
+    "Prefix": ".",
+    "Prefix_2": "!",
+    "sahip": "",
+    "Bot_Aktivite": "Aello Bot",
+    "CID": ""
+    },
+
+  "General":{
+    "Server": ""
+  },
+
+  "Tag": {
+    "Symbol": "",
+    "Symbol2": "",
+    "Role": "",
+    "Channel": ""
+  },
+
+  "Channels": {
+    
+    "İkaz": "",
+    "Log": "",
+    "KayitLog": "",
+    "UstYetki": "",
+    "Ovgu": "",
+    "KayitKanali": "",
+    "PartnerKanali": ""
+
+    },
+
+    "Word":{
+    "Nick": ["amk", "ananı sikiyim", "yarak", "oruspu", "orsp", "orspu", "puşt","sokuk","sikik","ibne","amcık","ibnee","1bn3","1bne","ibn3","orospuçoçu","oruspuçocu","occ","oçç","annesini sikeyim","sikeyim","s2","sikişek","s2şek","s2ş","sikiş","anneni sikeyim","annesiz", "ananıskm", "piç", "amk", "amsk", "sikim", "sikiyim", "orospu çocuğu", "piç kurusu", "orospu", "sik", "yarrak", "amuk", "amcık", "amık", "yarram","sg","sgg","siktr","sktr","sigit", "sikimi ye", "mk", "mq", "aq", "awk","awq", "amq","yarrrak","gavat","pezeveng","pezevenk","0ç","0c","oçocuğu","s2k","skik","p1c","p1ç","s0kuk","s1k1ş","s1k1s","s1kis","sik1s","s1kiş","sik1ş","göt","allahını","ülviyetini","amına","sex","s3x","$ex","!bne","!bn","s!k!ş","s!k","s!k!k","s!kik","o.ç","o.c","o.c.","o.ç.","o ç","@ç","p!ç","p*ç","p*şt","o*ç","o*c","bitches","b1tches","b1tçh","bitch","b1tch","sh1t"],
+    "Ailevi": ["o*ç","o*c", "oç", "ananısikiyim", "oc", "orospuçoçu","oruspuçocu","occ","oçç","annesinisikeyim","annenisikeyim","annesiz", "ananıskm","orospuçocuğu","0ç","0c","oçocuğu","o.ç","o.c","o.c.","o.ç.","o ç","@ç","ülviyetini"],
+    "Swear": ["amk", "yarak", "oruspu", "orsp", "orspu", "puşt","sokuk","sikik","ibne","amcık","ibnee","1bn3","1bne","ibn3","sikeyim","sikişek","s2şek","s2ş","sikiş", "piç", "amk", "amsk", "sikim", "sikiyim",  "piç kurusu", "orospu", "sik", "yarrak", "amuk", "amcık", "amık", "yarram","sg","sgg","siktr","sktr","sigit", "sikimi ye", "mk", "mq", "aq", "awk","awq", "amq","yarrrak","gavat","pezeveng","pezevenk","s2k","skik","p1c","p1ç","s0kuk","s1k1ş","s1k1s","s1kis","sik1s","s1kiş","sik1ş","göt","amına","sex","s3x","$ex","!bne","!bn","s!k!ş","s!k","s!k!k","s!kik","p!ç","p*ç","p*şt","bitches","b1tches","b1tçh","bitch","b1tch","sh1t"],
+    "Reklam": [".xyz", ".tk", ".pw", ".io", ".me", ".gg", ".gl", ".org", ".com.tr", ".biz", ".rf.gd", ".az", ".party", "discord.gg", "dc.gg"]
+   
+    },
+
+    "Authority": {
+      "BanHammer": "",
+      "KickHammer": "",
+      "JailHammer": "",
+      "MuteHammer": ""
+    },
+
+    "Roles": {
+    "Kayitli": "",
+    "Kayitsiz": "",
+    "Partnerci": "",
+    "ChatWarn": "",
+    "Jail": "",
+    "NickWarn": "",
+    "Male": "",
+    "Female": "",
+    "Member": "",
+    "Mute": "",
+    "Booster": "",
+    "VoiceMute": ""
+    },
+
+    "MemberAdd": {
+      "autoRole_1": "",
+      "autoRole_2": "",
+      "LogChannel": "",
+      "TehlikeliHesapGun": "",
+      "TehlikeliHesapRol": ""
+    },
+
+    "Warn": {
+      "CezaSure1": 1,
+      "CezaSure2": 2,
+      "CezaSure3": 3,
+      "CezaSure4": 4,
+      "CezaSure5": 5
+    },
+
+    "Invite": {
+      "rol_1_sayi": "",
+      "rol_2_sayi": "",
+      "rol_3_sayi": "",
+      "rol_4_sayi": "",
+      "rol_5_sayi": "",
+      "rol_1": "",
+      "rol_2": "",
+      "rol_3": "",
+      "rol_4": "",
+      "rol_5": ""
+
+    },
+
+    "Table": {
+      "Channel": "",
+      "MessageId": ""
+    }
+}
