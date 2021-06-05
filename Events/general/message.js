@@ -13,7 +13,7 @@ module.exports = message => {
     if (!message.content.startsWith(prefix)) return;
 
   }
-  let command = message.content.split(' ')[0].slice(prefix.length) || message.content.split(' ')[0].slice(prefix2.length);
+  let command = message.content.split(' ')[0].slice(prefix2.length) || message.content.split(' ')[0].slice(prefix.length);
   let params = message.content.split(' ').slice(1);
   let perms = client.elevation(message);
   let cmd;
