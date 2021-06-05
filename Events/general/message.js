@@ -1,18 +1,13 @@
 module.exports = message => {
-  const Config = require('../../config.json')
+  const Config = require('../../Config/Config.json')
   let client = global.client;
   let prefix = Config.Client.Prefix;
   let prefix2 = Config.Client.Prefix_2;
   if (message.author.bot) return;
-  if (prefix2) {
 
     if (!message.content.startsWith(prefix2) && !message.content.startsWith(prefix)) return;
 
-  } else if (!prefix2) {
 
-    if (!message.content.startsWith(prefix)) return;
-
-  }
   let command = message.content.split(' ')[0].slice(prefix2.length) || message.content.split(' ')[0].slice(prefix.length);
   let params = message.content.split(' ').slice(1);
   let perms = client.elevation(message);
@@ -28,7 +23,7 @@ module.exports = message => {
 }
 
 client.elevation = message => {
-  const Config = require('../../config.json')
+  const Config = require('../../Config/Config.json')
 
   if (!message.guild) { return; }
   let permlvl = 0;
