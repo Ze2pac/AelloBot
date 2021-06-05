@@ -6,7 +6,7 @@ module.exports = message => {
   if (message.author.bot) return;
   if (prefix2) {
 
-    if (!message.content.startsWith(prefix) && !message.content.startsWith(prefix2)) return;
+    if (!message.content.startsWith(prefix2) && !message.content.startsWith(prefix)) return;
 
   } else if (!prefix2) {
 
